@@ -34,13 +34,15 @@ console.log(listaDeViagens);
 listaDeViagens.splice(1,2);
 console.log(listaDeViagens);
 
-var nomeComprador = entrada("Qual o seu nome? ");
+var NomeComprador = entrada("Qual o seu nome? ");
 var idadeComprador = entrada("Qual é a sua idade? ");
 
 if(idadeComprador < 18){
-  console.log("Infelizmente você é menor de idade e não podemos vender sua passagem")
+  
+console.log(`Olá senhor (a) ${NomeComprador} sua idade não corresponde com as nossas diretrize`);
 }
 
 if(idadeComprador >= 18){
-  console.log("Qual o seu destino?")
+  console.log(`olá senhor (a) ${NomeComprador} qual destes países você gostaria de viajar?`)
+  
 }
