@@ -16,6 +16,25 @@ const Faculdade = " medicina ";
 console.log("Olá meu nome é " + NomeCompleto + ", tenho " + Idade + " anos " +  "estamos no ano de " + AnoAtual + " gostaria de fazer faculdade na área de " + Faculdade);
 
 console.log(`oi eu sou ${nomeCompleto} meu no de nascimento é ${anoNascimento} minha idade é ${idade}`)
+const loginCerto = "Ana";
+const senhaCerto = 1512;
+console.log(" ");
+console.log("AGÊNCIA DE VIAGENS 🌎")
+console.log(" ");
+
+console.log("Faça seu login:");
+var login = entrada("Digite o seu usuário");
+var senha = entrada("Digite a sua senha");
+
+while(login != loginCerto){
+console.log ("login incorreto")
+  login = entrada("Digite seu login novamente: ");
+}
+
+while(senha != senhaCerto){
+console.log ("senha incorreta")
+  senha = entrada("Digite sua senha novamente: ");
+}
 
 const listaDeViagens = new Array(
   `Grécia`,
