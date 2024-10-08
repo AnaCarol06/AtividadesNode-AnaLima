@@ -37,11 +37,11 @@ console.log ("senha incorreta")
 }
 
 const listaDeViagens = new Array(
-  `Grécia`,
-  `Itália`,
-  `Espanha`,
-  `Rio Grande do Norte`,
-  `Noruega`
+  `Grécia ✈`,
+  `Itália ✈`,
+  `Espanha ✈`,
+  `Canadá ✈`,
+  `Noruega ✈`
 );
 
 console.log (listaDeViagens);
